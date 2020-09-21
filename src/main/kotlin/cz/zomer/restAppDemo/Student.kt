@@ -6,3 +6,4 @@ data class Student(
     val lastName: String,
     val personalNumber: String
 )
+
