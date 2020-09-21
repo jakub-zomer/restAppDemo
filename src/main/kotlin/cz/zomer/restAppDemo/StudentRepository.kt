@@ -32,6 +32,6 @@ class StudentRepository() {
 
     fun delete(id: Long) {
         val student = get(id)
-        storage.remove(student)
+        storage.remove(storage)
     }
 }
